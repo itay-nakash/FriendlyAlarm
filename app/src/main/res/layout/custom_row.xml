@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageViewAround"
+        android:layout_width="286dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/rectanglenew"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlarmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.69"
+        android:text="TextView"
+        tools:text="-alarmTime-"
+        android:textAppearance="@style/alarmTimePresent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageViewAround"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAround"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAround"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/textViewDeatiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAround"
+        android:layout_marginBottom="-1dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageViewAround" />
+
+    <ImageView
+        android:id="@+id/imageViewRepeat"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/repeat"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAround"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/imageViewAround"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAround"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/alarmMessage"
+        android:layout_width="153dp"
+        android:layout_height="36dp"
+        android:text=""
+        android:textStyle="bold"
+        tools:text="-User text-alarm message-"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAround"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/textViewAlarmTime"
+        android:layout_marginLeft="32dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+
+</android.support.constraint.ConstraintLayout>

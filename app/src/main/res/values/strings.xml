@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewFrindlyAlarm</string>
+    <string name="list_of_ringtones">Ringtones available on this device:</string>
+    <string name="title_activity_alarm_list">Alarm_list</string>
+    <string name="title_activity_frindly_alarms">FrindlyAlarms</string>
+    <string name="title_activity_animals_pics">Animals_pics</string>
+    <string name="title_activity_alarm_off">AlarmOffActivity</string>
+    <string name="title_activity_alarm_rings">AlarmRingsActivity</string>
+    <string name="title_activity_alarm_page">AlarmPage</string>
+
+</resources>
