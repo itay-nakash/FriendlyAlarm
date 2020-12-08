@@ -19,5 +19,5 @@ Here some pictures from different stages of this app development:
 I planed to make this "Friendly Alarm" in term of friends collabirate alarm clock.
 The idea was to create shared alarms for friends, after I saw that my group of friends had problems with times.
 To ensure that your friends really do put alrams for tomarrow morning at 7am,
-when they said they will- put the alarm "with them".
+when they said they will - put the alarm "with them".
 finally, I skipped this feature from time reasons.
